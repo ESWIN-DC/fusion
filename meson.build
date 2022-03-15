@@ -2744,6 +2744,7 @@ if have_tools
                dependencies: [blockdev, qemuutil, gnutls], install: true)
 
   subdir('storage-daemon')
+  subdir('contrib/plugins')
   subdir('contrib/rdmacm-mux')
   subdir('contrib/elf2dmp')
 
